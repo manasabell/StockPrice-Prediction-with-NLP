@@ -3,12 +3,12 @@
 This project is about predicting the DOW Jones stock market movement based on the sentiment values extracted from the Top Headlines scrapped from the Reddit Website using the API.
 
 #### Project Artifacts
-*Data Source: https://www.kaggle.com/aaron7sun/stocknews
-*Setup Info
-  *conda create -n news_stock python=3.7 anaconda
-  *activate news_stock
-  *pip install xgboost pip install nltk
-*Data Info :
+* Data Source: https://www.kaggle.com/aaron7sun/stocknews
+* Setup Info
+  * conda create -n news_stock python=3.7 anaconda
+  * activate news_stock
+  * pip install xgboost pip install nltk
+* Data Info :
 Added sentiment values to csv using jupyter notebook "Extracting Sentiment from News Headlines.ipynb" and saving to "combined with sentiment.csv" CSV File.
 Added "Start trend" column by comparing current days opening value with previous days adjecent close value and saved it to "Combined_News_DJIA_with_start.csv" CSV File.
 Jupyter Notebooks:

@@ -14,7 +14,7 @@ In this project, we are trying to predict the DOW Jones stock market movement ba
     * Added "Start trend" column by comparing current days opening value with previous days adjecent close value and saved it to "Combined_News_DJIA_with_start.csv" CSV File.
     * Two Jupyter notebooks:
       1. predict stock market movement with sentiment values and start trend.ipynb - In this code, we have considered the compound values of sentiments from top 25 news headlines for each date and the "Start trend" value which is a binary value with 1 = upward trend and 0 = downward trend
-      2.Predicting Stock Movement with Sentiment and Stock values.ipynb = In this code, we have considered all the stock market values like Open value, Close value, Low, High, Volume, Adjacent Close value and Start trend as well as the Compound value of sentiment from news headlines.
+      2. Predicting Stock Movement with Sentiment and Stock values.ipynb = In this code, we have considered all the stock market values like Open value, Close value, Low, High, Volume, Adjacent Close value and Start trend as well as the Compound value of sentiment from news headlines.
 
 ###### To run these Jupyter notebooks, all the csv files and the notebooks should be placed in the same folder.
 
